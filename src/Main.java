@@ -1,3 +1,6 @@
+import day1.DutchNationalFlagAlgorithm;
+import day1.SlidingWindow;
+
 public class Main {
     public static void main(String[] args) {
 //        int[] arr={1,3,5,3,9,6,2};
@@ -54,6 +57,21 @@ public class Main {
 //        for (int i:arr){
 //            System.out.print(" "+ i);
 //        }
+
+        // DutchNationalFlagAlgorithm
+//         int[] array={1,2,2,2,0,1,1,1,2,0,0};
+//        DutchNationalFlagAlgorithm dutchNationalFlagAlgorithm=new DutchNationalFlagAlgorithm();
+//        int[] arr=dutchNationalFlagAlgorithm.arrangeArray(array);
+//
+//        for (int i:arr){
+//            System.out.print(" "+ i);
+//        }
+
+        //SlidingWindow
+        int[] array={1,3,2,4,1,2,0,5,3,1};
+        SlidingWindow slidingWindow=new SlidingWindow();
+        int max=slidingWindow.findContiguousMax(array,3);
+        System.out.print("max "+ max);
 
     }
 }
