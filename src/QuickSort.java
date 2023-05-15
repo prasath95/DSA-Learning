@@ -14,6 +14,7 @@ public class QuickSort {
         *
         * */
 
+        //to make sure array contains more than 2 values
         if(end<=start){
             return;
         }
@@ -28,8 +29,6 @@ public class QuickSort {
         int pivot=array[array.length-1];
         int j=start-1;
 
-        //to make sure array contains more than 2 values
-
         for(int i=start;i<end;i++){
             if(pivot>array[i]){
                 j++;
@@ -38,6 +37,7 @@ public class QuickSort {
                 array[j]=temp;
             }
         }
+        //for final swap, crete a place and move pivot to that place
         j++;
         int temp=array[j];
         array[j]=array[end];

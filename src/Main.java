@@ -68,10 +68,36 @@ public class Main {
 //        }
 
         //SlidingWindow
-        int[] array={1,3,2,4,1,2,0,5,3,1};
-        SlidingWindow slidingWindow=new SlidingWindow();
-        int max=slidingWindow.findContiguousMax(array,3);
-        System.out.print("max "+ max);
+//        int[] array={1,3,2,4,1,2,0,5,3,1};
+//        SlidingWindow slidingWindow=new SlidingWindow();
+//        int max=slidingWindow.findContiguousMax(array,3);
+//        System.out.print("max "+ max);
+
+        //Two Pointer
+//        int[] array={1,3,5,6,7,21,40,55,333,11}; //find 29
+//        TwoPointer twoPointer=new TwoPointer();
+//        int[] ar=twoPointer.twoSum(array,29);
+//
+//        for (int i:ar){
+//            System.out.print(" "+ i);
+//        }
+
+        //mergeSort
+//        int[] array={1,3,2,4,1,2,0,5,3,1};
+//        System.out.println(" ");
+//
+//        for (int i=0;i<array.length;i++){
+//            System.out.print(" "+ array[i]);
+//        }
+//
+//        MergeSort mergeSort=new MergeSort();
+//        mergeSort.mergeSort(array);
+//        System.out.println(" ---- ");
+//        for (int i=0;i<array.length;i++){
+//            System.out.print(" "+ array[i]);
+//        }
+
+
 
     }
 }
